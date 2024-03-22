@@ -13,6 +13,16 @@
                 <th> ID Level Pengguna</th>
 
             </tr>
-            @foreach ( $ )
+            <tr>
+                <td>{{ $data->user_id}}</td>
+                <td>{{ $data->username}}</td>
+                <td>{{ $data->nama}}</td>
+                <td>{{ $data->level_id}}</td>
+            
+            </tr>
+
+        </table>
+
+    </body>
                 
-            @endforeach
+</html>
